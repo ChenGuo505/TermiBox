@@ -61,12 +61,12 @@ const focus = () => {
  * Submit the command.
  * @returns void
  */
-const submit = () => {
+const submit = async () => {
   isRunning.value = true
   const command = input.value
   input.value = ''
   outputList.value.push({ text: command, logText: [] })
-  executeCommand(command)
+  await executeCommand(command)
   isRunning.value = false
   setTimeout(() => {
     termiBoxInnerRef.value.scrollTop = termiBoxInnerRef.value.scrollHeight
