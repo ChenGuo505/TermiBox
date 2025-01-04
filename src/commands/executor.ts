@@ -1,7 +1,7 @@
-import { commandMap } from '@/commands/register'
-import type { Command, CommandOption } from '@/commands/command'
-import helpCommand from '@/commands/helpCommand/helpCommand'
-import getopts from '@/wrappers/getopts.ts'
+import { commandMap } from './register'
+import type { Command, CommandOption } from './command'
+import helpCommand from './helpCommand/helpCommand'
+import getopts from '@/libs/getopts/index'
 
 export const doExecute = async (text: string, terminal: TermiBox.Terminal) => {
   text = text.trim()

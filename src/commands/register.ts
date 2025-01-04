@@ -1,13 +1,13 @@
-import type { Command } from '@/commands/command'
-import helloCommand from '@/commands/helloCommand/helloCommand'
-import clearCommand from '@/commands/clearCommand/clearCommand'
-import helpCommand from '@/commands/helpCommand/helpCommand'
-import searchCommand from '@/commands/searchCommand/searchCommand'
-import googleCommand from '@/commands/searchCommand/googleCommand/googleCommand'
-import bingCommand from '@/commands/searchCommand/bingCommand/bingCommand'
-import baiduCommand from '@/commands/searchCommand/baiduCommand/baiduCommand'
-import gotoCommand from '@/commands/gotoCommand/gotoCommand'
-import infoCommand from '@/commands/infoCommand/infoCommand'
+import type { Command } from './command'
+import helloCommand from './helloCommand/helloCommand'
+import clearCommand from './clearCommand/clearCommand'
+import helpCommand from './helpCommand/helpCommand'
+import searchCommand from './searchCommand/searchCommand'
+import googleCommand from './searchCommand/googleCommand/googleCommand'
+import bingCommand from './searchCommand/bingCommand/bingCommand'
+import baiduCommand from './searchCommand/baiduCommand/baiduCommand'
+import gotoCommand from './gotoCommand/gotoCommand'
+import infoCommand from './infoCommand/infoCommand'
 
 const commandList: Command[] = [
   helloCommand,

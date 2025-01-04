@@ -1,4 +1,4 @@
-import getopts from 'getopts'
+import getopts from '@/libs/getopts/index'
 
 interface Command {
   key: string
