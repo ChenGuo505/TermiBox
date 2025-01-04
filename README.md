@@ -1,14 +1,14 @@
 # TermiBox
-<pre style="color: dodgerblue; line-height: 14px; width: 450px">
+<pre>
   ______                              _     ____
  /_  __/  ___    _____   ____ ___    (_)   / __ )  ____    _  __
   / /    / _ \  / ___/  / __ `__ \  / /   / __  | / __ \  | |/_/
  / /    /  __/ / /     / / / / / / / /   / /_/ / / /_/ / _&gt;  &lt;
 /_/     \___/ /_/     /_/ /_/ /_/ /_/   /_____/  \____/ /_/|_|
 </pre>
-🎉 Welcome to <span style="color: dodgerblue">TermiBox</span>!
+🎉 Welcome to TermiBox
 
-🤩 <span style="color: dodgerblue">TermiBox</span> is a web-based, geek-style toolbox.
+🤩 TermiBox is a web-based, geek-style toolbox.
 
 😎 It provides a bunch of cool and useful commands and allows you to use them in a terminal-like way.
 
