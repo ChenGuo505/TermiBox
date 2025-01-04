@@ -1,4 +1,4 @@
-import type { Command, CommandOption } from '@/commands/command'
+import type { Command, CommandOption } from './command'
 
 export const getUsageStr = (command: Command): string => {
   const { key, params, options } = command

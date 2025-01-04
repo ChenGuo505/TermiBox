@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import TermiBoxView from '@/views/TermiBoxView.vue'
+import TermiBoxView from '../views/TermiBoxView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
