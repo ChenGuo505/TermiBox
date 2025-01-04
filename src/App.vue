@@ -3,8 +3,8 @@ import SpeedInsights from '@vercel/speed-insights'
 </script>
 
 <template>
-  <RouterView />
   <SpeedInsights />
+  <RouterView />
 </template>
 
 <style scoped></style>
