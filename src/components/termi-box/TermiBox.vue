@@ -61,12 +61,12 @@ const focus = () => {
  * Submit the command.
  * @returns void
  */
-const submit = async () => {
+const submit = () => {
   isRunning.value = true
   const command = input.value
   input.value = ''
   outputList.value.push({ text: command, logText: [] })
-  await executeCommand(command)
+  executeCommand(command)
   isRunning.value = false
   setTimeout(() => {
     termiBoxInnerRef.value.scrollTop = termiBoxInnerRef.value.scrollHeight
@@ -182,10 +182,9 @@ onMounted(() => {
         </div>
         <CommandOutput :output v-if="output.component" />
       </div>
-      <div class="termi-box-row">
+      <div class="termi-box-row" v-if="!isRunning">
         <a-input
           v-model:value="input"
-          v-if="!isRunning"
           style="width: 1200px"
           ref="termiBoxInputRef"
           class="command-input"
