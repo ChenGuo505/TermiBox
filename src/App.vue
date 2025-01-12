@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import SpeedInsights from '@vercel/speed-insights'
+import { SpeedInsights } from '@vercel/speed-insights/vue';
 </script>
 
 <template>
